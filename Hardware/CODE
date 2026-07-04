@@ -1,0 +1,34 @@
+# CODE:
+```cpp
+int r=3;
+int b=4;
+int o=5;
+int y=6;
+
+void setup() {
+pinMode(r,OUTPUT);
+pinMode(b,OUTPUT);
+pinMode(o,OUTPUT);
+pinMode(y,OUTPUT);
+
+}
+
+void loop() {
+digitalWrite(r,1);
+  delay(1000);
+ digitalWrite(r,0);
+ digitalWrite(b,1);
+  delay(1000);
+  digitalWrite(b,0);
+ digitalWrite(o,1);
+  delay(1000);
+  digitalWrite(o,0);
+ digitalWrite(y,1);
+  delay(1000);
+  digitalWrite(y,0);
+  
+   
+  
+
+}
+```
